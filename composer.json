@@ -1,0 +1,26 @@
+{
+	"description": "Samu 192",
+	"name": "samu192/bot",
+	"type": "project",
+	"license": "MIT",
+	"support": {
+	},
+	"require": {
+		"php": ">=7",
+		"telegram-bot/api": "^2.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"app\\" : "app/"
+		},
+		"files": [
+			"config/config.php"
+		]
+	},
+	"suggest": {
+		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
+	},
+	"require-dev": {
+		"mikey179/vfsstream": "1.1.*"
+	}
+}

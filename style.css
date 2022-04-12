@@ -1,0 +1,31 @@
+
+
+table{
+    width: 100vw;
+    margin-bottom: 10px;
+}
+
+table th{
+    padding: 20px;
+}
+
+table td{
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+table td.other-month{
+    opacity: .5;
+}
+
+table td, table th{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
