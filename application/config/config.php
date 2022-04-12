@@ -512,5 +512,3 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
-define('TOKEN', '5163302255:AAFi6vTDzf8SHycI-2WjPRgrwwndpeDDZ7o');
-define('CHAT_ID', '-1001622599871');
